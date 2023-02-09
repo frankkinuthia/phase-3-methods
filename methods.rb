@@ -1,22 +1,28 @@
 # Your code here!
+#methods from index.js 
+#greet_programmer
 def greet_programmer
     puts "Hello, programmer!"
 end
 
+#greet
 def greet(name)
     puts "Hello, #{name}!"
 end
 
+#greet_with_default
 def greet_with_default(name = "programmer")
     puts "Hello, #{name}!"
 end
 
+#add
 def add(num1, num2)
     num1 + num2
 end
 
-def halve(num3)
-    if num3.class === Integer
+#halve
+def halve(number)
+    if number.class === Integer
         return num3/2
     end
 
