@@ -23,7 +23,7 @@ end
 #halve
 def halve(number)
     if number.class === Integer
-        return num3/2
+        return number/2
     end
 
     return nil
